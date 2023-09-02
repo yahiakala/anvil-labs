@@ -4,6 +4,10 @@ startup: {type: form, module: Form1}
 name: Anvil Labs
 startup_form: null
 runtime_options: {version: 2, client_version: '3', server_version: python3-full, server_spec: null}
+dependencies:
+- dep_id: dep_rp6zmxs56dfkaj
+  version: {dev: false}
+  resolution_hints: {app_id: CVAFGUBPSRFZNPZD, name: anvil_extras, package_name: anvil_extras}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
